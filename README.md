@@ -1,8 +1,8 @@
 # Softgen Starter Project
 
-A production-ready Next.js application starter template built with modern web technologies and best practices.
+A modern, production-ready Next.js application starter template built with the latest web technologies and best practices.
 
-## 🚀 Features
+## ✨ Features
 
 - ⚡ **Next.js 15.2** - Latest features with Pages Router architecture
 - 🎨 **Tailwind CSS 3.4** - Utility-first styling with custom design system
@@ -10,23 +10,23 @@ A production-ready Next.js application starter template built with modern web te
 - 🌓 **Dark Mode** - Built-in theme switching with next-themes
 - 📱 **Responsive Design** - Mobile-first approach
 - ♿ **Accessibility** - WCAG compliant components
-- 🔒 **TypeScript** - Full type safety
+- 🔒 **TypeScript** - Full type safety throughout
 - 🎭 **Framer Motion** - Smooth animations and transitions
 - 📋 **Form Handling** - React Hook Form with Zod validation
 - 🎯 **SEO Ready** - Meta tags and Open Graph support
 
-## 📦 Tech Stack
+## 🚀 Tech Stack
 
 ### Core
 - **Framework:** Next.js 15.2 (Pages Router)
 - **Language:** TypeScript 5
 - **React:** 18.3
 
-### Styling
+### Styling & UI
 - **CSS Framework:** Tailwind CSS 3.4
 - **UI Components:** Shadcn/UI + Radix UI
 - **Animations:** Framer Motion 12
-- **Icons:** Lucide React
+- **Icons:** Lucide React 0.474
 
 ### Forms & Validation
 - **Form Library:** React Hook Form 7.54
@@ -43,7 +43,6 @@ A production-ready Next.js application starter template built with modern web te
 
 ### Prerequisites
 
-Ensure you have the following installed:
 - **Node.js** 18.x or higher
 - **npm** or **yarn** package manager
 - **Git** for version control
@@ -243,7 +242,7 @@ npm start
 
 ### Environment Variables
 
-Set up the following environment variables in your deployment platform:
+Set up environment variables in your deployment platform:
 
 ```bash
 # Example variables (add your own)
@@ -256,17 +255,10 @@ NEXT_PUBLIC_SITE_URL=https://yoursite.com
 
 ## 🔧 Configuration Files
 
-### next.config.mjs
-Next.js configuration including image domains, headers, and build settings.
-
-### tailwind.config.ts
-Tailwind CSS configuration with custom colors, fonts, and plugins.
-
-### tsconfig.json
-TypeScript compiler options and path aliases (`@/*`).
-
-### components.json
-Shadcn/UI component library configuration.
+- **next.config.mjs** - Next.js configuration including image domains, headers, and build settings
+- **tailwind.config.ts** - Tailwind CSS configuration with custom colors, fonts, and plugins
+- **tsconfig.json** - TypeScript compiler options and path aliases (`@/*`)
+- **components.json** - Shadcn/UI component library configuration
 
 ## 📚 Documentation & Resources
 
@@ -292,8 +284,6 @@ Contributions are welcome! Please follow these steps:
 This project is open source and available under the [MIT License](LICENSE).
 
 ## 🆘 Support
-
-Need help? Here are your options:
 
 - 📖 Check the [Next.js documentation](https://nextjs.org/docs)
 - 💬 Visit [Shadcn/UI documentation](https://ui.shadcn.com)
