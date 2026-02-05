@@ -37,6 +37,3 @@ next-env.d.ts
 
 # firebase
 firebase-service-account.json
-
-# Git credentials
-.git-credentials
